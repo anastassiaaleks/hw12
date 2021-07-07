@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(192, 238, 204);
+    font-family: 'Poppins', sans-serif;
+}
+
+.contacts{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    background: rgb(82, 182, 115);
+    padding: 20px 0px;
+}
+
+.form>p{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.form > input{
+    margin-top: 15px;
+    height: 25px;
+    width: 250px;
+    border: none;
+    padding-left: 5px;
+}
+
+.dtnForm{
+    margin-top: 15px;
+    width: 255px;
+    border: none;
+    height: 25px;
+    text-transform: uppercase;
+    background-color: rgb(192, 238, 204);
+}
+
+.list{
+    margin-top: 30px;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: 28px 1fr 1fr 28px 28px;
+    width: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.items>div{
+    overflow: hidden;
+    height: 20px;
+    padding: 3px;
+    line-height: 20px
+}
+
+.items>div:nth-child(1){
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(8, 99, 43);
+}
+.items>.editBtn, .trashBtn{
+    text-align: center; 
+    transition: all 0.5s ease;
+}
+
+.editBtn{
+    color: rgb(91, 202, 100); 
+}
+
+.trashBtn{
+    color: rgb(240, 124, 89); 
+}
+
+.editBtn:hover{
+    background-color: rgb(91, 202, 100);
+    color: rgb(255, 255, 255); 
+}
+
+.trashBtn:hover{
+    background-color: rgb(240, 124, 89); 
+    color: rgb(255, 255, 255); 
+}
+
+.form>.red{
+    outline: 2px solid rgb(235, 109, 109);
+    transition: 0.3s; 
+}
+
+.main-modal{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+
+.modal{
+    background-color: rgb(183, 221, 172);
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.modal>div>input{
+    margin-top: 15px;
+    height: 25px;
+    width: 200px;
+    border: none;
+    padding-left: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.btnChange, .btnCancel{
+    margin-top: 15px;
+    width: 100px;
+    border: none;
+    height: 25px;
+} 
+
+.btnChange{
+    background-color: rgb(192, 238, 194);
+}
+
+.btnCancel{
+    background-color: rgb(238, 203, 192);
+}
